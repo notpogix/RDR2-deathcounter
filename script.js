@@ -11,7 +11,7 @@ window.addEventListener('onEventReceived', function (obj) {
       const newCount = parseInt(parts[1]);
       if (!isNaN(newCount)) {
         deathCount = newCount;
-        document.getElementById('counter').textContent = `DEATHS: ${deathCount}`;
+        document.getElementById('counter').textContent = `${deathCount}`;
       }
     }
   }
