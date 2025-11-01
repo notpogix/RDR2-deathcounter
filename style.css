@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'ChineseRocks';
+  src: url('fonts/ChineseRocks.ttf') format('truetype');
+}
+
+body {
+  margin: 0;
+  background: transparent;
+}
+
+#counter {
+  font-family: 'ChineseRocks', sans-serif;
+  font-size: 64px;
+  color: white;
+  text-shadow: 2px 2px 0 black;
+}
